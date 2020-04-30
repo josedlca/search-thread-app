@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        {{#each allData}}            
+            <h4>{{userName}}</h4>
+            <h6>{{dayOfTwetts}} for {{userScreenName}}</h6>
+            <p>{{twettText}}</p>
+            <h6>likes:{{like}} retweets:{{retweet}}</h6>
+        {{/each}}
+    </div>
+</body>
+</html>

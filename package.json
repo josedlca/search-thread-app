@@ -1,0 +1,21 @@
+{
+  "name": "search-twetts-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
